@@ -1,0 +1,73 @@
+:root {
+	background: black;
+}
+
+bodycopy {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.9);
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: 0;
+	display: block;
+}
+
+bodycopy a {
+	color: rgba(255, 255, 255, 0.9);
+	border-bottom: 0px solid rgba(127, 127, 127, 0.2);
+	text-decoration: none;
+}
+
+
+h1 {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	margin: 0;
+	font-size: 5rem;
+	line-height: 1;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	display: block;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+h2 {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+	color: #ffffff;
+	font-size: 3rem;
+	line-height: 1.35;
+	letter-spacing: 0.1em;
+	display: block;
+}
+
+h2 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+h3 {
+    font-size: 0.7rem;
+    font-weight: 400;
+	color: rgba(255, 255, 255, 0.5);
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.25em;
+    display: block;
+}
+
+.caption a {
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.5);
+}
