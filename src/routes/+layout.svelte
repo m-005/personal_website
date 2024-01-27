@@ -29,5 +29,7 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		flex: 1;
+		max-width: 70%;
+		padding: 4rem;
 	}
 </style>
