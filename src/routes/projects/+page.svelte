@@ -1,7 +1,7 @@
-<script lang="ts">
-	import type { PageData } from './$types';
+<div class="content"><bodycopy>Objects</bodycopy></div>
 
-	export let data: PageData;
-</script>
-
-<div><bodycopy>Objects</bodycopy></div>
+<style>
+	div {
+		align-items: center;
+	}
+</style>

@@ -1,5 +1,19 @@
-:root {
-	background: black;
+@import '@fontsource/ibm-plex-sans';
+
+body {
+	margin:0;
+	min-height: 100vh;
+	min-width: 100vw;
+
+	background-size: 100vw 100vh;
+	background-color:black;
+	background-image: radial-gradient(
+		circle at 50% 50%,
+		#477e53 0%,
+		#477e53 0%,
+		rgba(50, 175, 215, 0.52) 100%,
+		rgba(50, 175, 215, 0.52) 100%
+	); 
 }
 
 bodycopy {

@@ -1,26 +1,30 @@
 <script>
 	import './style.css';
+	import Nav from './Nav.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
-<div id="nav">
-	<h2><a href="/projects">{'Projects'.toUpperCase()}</a></h2>
-	<h2><a href="https://are.na/montez">{'Archive'.toUpperCase()}</a></h2>
-	<h2><a href="mailto:email@montez.cloud">{'Contact'.toUpperCase()}</a></h2>
-</div>
+<div class="app">
+	<Nav />
 
-<slot />
+	<content>
+		<slot />
+	</content>
 
-<div id="footer">
-	<h1>{'Montez.'.toUpperCase()}</h1>
-	<h3>{'Engineered in Atlanta'.toUpperCase()}</h3>
+	<Footer />
 </div>
 
 <style>
-	#nav {
-		text-align: right;
+	.app {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
 	}
-	#footer {
-		position: fixed;
-		bottom: 0;
+
+	content {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		flex: 1;
 	}
 </style>
