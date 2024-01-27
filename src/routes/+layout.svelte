@@ -3,6 +3,8 @@
 	import './style.css';
 	import Nav from './Nav.svelte';
 	import Footer from './Footer.svelte';
+
+	injectSpeedInsights();
 </script>
 
 <div class="app">
