@@ -6,7 +6,5 @@
 <h1><a href="/">{home.toUpperCase()}</a></h1>
 
 <style>
-	/* h1 {
-		padding: 0 0 0 var(--default-padding);
-	} */
+
 </style>

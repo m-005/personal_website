@@ -1,25 +1,22 @@
 @import '@fontsource/ibm-plex-sans/latin.css'; 
 
-html {
+:root {
 	--default-padding: 4rem;
 	--mobile-padding-offset: .7;
+
+	--fs-small:1.6rem;
+	--fs-medium:3rem;
+	--fs-large: clamp(3rem, 12vw + 1rem, 5rem);
 }
 
 body {
 	margin:0;
 	background-size: 100vw 100vh;
-		background-color: black;
-		background-image: radial-gradient(
-			circle at 50% 50%,
-			#477e53 0%,
-			#477e53 0%,
-			rgba(50, 175, 215, 0.52) 100%,
-			rgba(50, 175, 215, 0.52) 100%
-		);
+	background-color: black;
 }
 
 bodycopy {
-	font-size: 1.6rem;
+	font-size: var(--fs-small);
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.9);
 	font-family: "IBM Plex Sans";
@@ -41,7 +38,7 @@ h1 {
 	font-style: normal;
 	font-weight: 700;
 	margin: 0;
-	font-size: 5rem;
+	font-size: var(--fs-large);
 	line-height: 1;
 	color: #ffffff;
 	letter-spacing: 0.1em;
@@ -60,7 +57,7 @@ h2 {
 	font-weight: 600;
 	margin: 0;
 	color: #ffffff;
-	font-size: 3rem;
+	font-size: var(--fs-medium);
 	line-height: 1.35;
 	letter-spacing: 0.1em;
 	display: block;

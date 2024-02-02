@@ -11,9 +11,9 @@
 <div class="app">
 	<Nav />
 
-	<content>
+	<div class="content">
 		<slot />
-	</content>
+	</div>
 
 	<Home />
 	<Footer />
@@ -23,27 +23,16 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		max-height: 100vh;
 		padding: var(--default-padding);
+		box-sizing: border-box; /* Include padding in element's total height */
+		height: 100vh;
 	}
 
-	@media (max-width: 768px) {
-		.app {
-			padding: var(--default-padding) * var(--mobile-padding-offset);
-		}
-	}
-
-	content {
+	.content {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		flex: 1;
-		max-width: 70%;
-	}
-
-	@media (max-width: 768px) {
-		content {
-			max-width: 100%;
-		}
+		max-width: 60%;
+		flex-grow: 1;
 	}
 </style>
