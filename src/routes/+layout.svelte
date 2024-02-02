@@ -39,9 +39,13 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		padding: var(--default-padding);
+		padding: 2.8rem;
 		box-sizing: border-box; /* Include padding in element's total height */
 		height: 100vh;
+
+		@media screen and (min-width: 1024px) {
+			padding: var(--default-padding);
+		}
 	}
 
 	.content {
