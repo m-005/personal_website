@@ -4,7 +4,3 @@
 </script>
 
 <h1><a href="/">{home.toUpperCase()}</a></h1>
-
-<style>
-
-</style>

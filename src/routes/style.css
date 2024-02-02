@@ -1,16 +1,16 @@
-@import '@fontsource/ibm-plex-sans/latin.css'; 
+@import '@fontsource/ibm-plex-sans/latin.css';
 
 :root {
 	--default-padding: 4rem;
-	--mobile-padding-offset: .7;
+	--mobile-padding-offset: 0.7;
 
-	--fs-small:1.6rem;
-	--fs-medium:3rem;
-	--fs-large: clamp(3rem, 12vw + 1rem, 5rem);
+	--fs-small: clamp(.8rem, 3vw, 1.6rem);
+	--fs-medium: clamp(1.5rem, 3vw, 3rem);
+	--fs-large: clamp(2.5rem, 3vw, 5rem);
 }
 
 body {
-	margin:0;
+	margin: 0;
 	background-size: 100vw 100vh;
 	background-color: black;
 }
@@ -19,7 +19,7 @@ bodycopy {
 	font-size: var(--fs-small);
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.9);
-	font-family: "IBM Plex Sans";
+	font-family: 'IBM Plex Sans';
 	font-style: normal;
 	line-height: 1.4;
 	letter-spacing: 0;
@@ -32,9 +32,8 @@ bodycopy a {
 	text-decoration: none;
 }
 
-
 h1 {
-	font-family: "IBM Plex Sans";
+	font-family: 'IBM Plex Sans';
 	font-style: normal;
 	font-weight: 700;
 	margin: 0;
@@ -50,9 +49,8 @@ h1 a {
 	color: #ffffff;
 }
 
-
 h2 {
-	font-family: "IBM Plex Sans";
+	font-family: 'IBM Plex Sans';
 	font-style: normal;
 	font-weight: 600;
 	margin: 0;
@@ -68,16 +66,15 @@ h2 a {
 	text-decoration: none;
 }
 
-
 h3 {
-    font-size: 0.7rem;
-    font-weight: 400;
+	font-size: 0.7rem;
+	font-weight: 400;
 	color: rgba(255, 255, 255, 0.5);
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: 0.25em;
-    display: block;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: 0.25em;
+	display: block;
 }
 
 h3 a {

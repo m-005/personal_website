@@ -48,10 +48,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
-		max-width: 70%;
 		flex-grow: 1;
 
-		@media screen {
+		@media screen and (min-width: 768px) {
+			max-width: 70%;
 		}
 	}
 </style>
