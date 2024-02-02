@@ -4,6 +4,7 @@
 	--default-padding: 4rem;
 	--mobile-padding-offset: 0.7;
 
+	--fs-tiny: clamp(.35rem, 3vw, .7rem);
 	--fs-small: clamp(.8rem, 3vw, 1.6rem);
 	--fs-medium: clamp(1.5rem, 3vw, 3rem);
 	--fs-large: clamp(2.5rem, 3vw, 5rem);
@@ -67,7 +68,7 @@ h2 a {
 }
 
 h3 {
-	font-size: 0.7rem;
+	font-size: var(--fs-tiny);
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.5);
 	font-family: 'IBM Plex Sans';
