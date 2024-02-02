@@ -39,7 +39,7 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		padding: 2.8rem;
+		padding: 2rem;
 		box-sizing: border-box; /* Include padding in element's total height */
 		height: 100vh;
 

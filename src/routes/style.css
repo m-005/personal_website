@@ -4,10 +4,10 @@
 	--default-padding: 4rem;
 	--mobile-padding-offset: 0.7;
 
-	--fs-tiny: clamp(.35rem, 3vw, .7rem);
-	--fs-small: clamp(.8rem, 3vw, 1.6rem);
-	--fs-medium: clamp(1.5rem, 3vw, 3rem);
-	--fs-large: clamp(2.5rem, 3vw, 5rem);
+	--fs-tiny: clamp(.4rem, 3vw, .7rem);
+	--fs-small: clamp(1rem, 3vw, 1.6rem);
+	--fs-medium: clamp(1.9rem, 3vw, 3rem);
+	--fs-large: clamp(3rem, 3vw, 5rem);
 }
 
 body {
