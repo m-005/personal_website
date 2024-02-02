@@ -27,6 +27,12 @@
 		padding: var(--default-padding);
 	}
 
+	@media (max-width: 768px) {
+		.app {
+			padding: var(--default-padding) * var(--mobile-padding-offset);
+		}
+	}
+
 	content {
 		display: flex;
 		flex-direction: column;
