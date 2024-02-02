@@ -4,24 +4,11 @@
 	import Nav from './Nav.svelte';
 	import Footer from './Footer.svelte';
 	import Home from './Home.svelte';
-	import { onMount } from 'svelte';
 
 	// Vercel Perf widget
 	injectSpeedInsights();
 
 	// Function to set the height of .app to match the inner height of the window
-
-	function adjustAppHeight() {
-		const appElement = document.querySelector('.app');
-		if (appElement instanceof HTMLElement) {
-			appElement.style.height = `${window.innerHeight}px`;
-		}
-	}
-
-	onMount(() => {
-		adjustAppHeight();
-		window.addEventListener('resize', adjustAppHeight);
-	});
 </script>
 
 <div class="app">
