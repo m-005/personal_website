@@ -1,7 +1,7 @@
-<div class="content"><bodycopy>Objects</bodycopy></div>
+<bodycopy>Objects</bodycopy>
 
 <style>
-	div {
-		align-items: center;
+	:root {
+		background-image: black;
 	}
 </style>

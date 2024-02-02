@@ -1,20 +1,21 @@
 @import '@fontsource/ibm-plex-sans/latin.css'; 
 
+html {
+	--default-padding: 4rem;
+	--mobile-padding-offset: .7;
+}
+
 body {
 	margin:0;
-	
-	max-height: 100vh;
-	max-width: 100vw;
-
 	background-size: 100vw 100vh;
-	background-color:black;
-	background-image: radial-gradient(
-		circle at 50% 50%,
-		#477e53 0%,
-		#477e53 0%,
-		rgba(50, 175, 215, 0.52) 100%,
-		rgba(50, 175, 215, 0.52) 100%
-	); 
+		background-color: black;
+		background-image: radial-gradient(
+			circle at 50% 50%,
+			#477e53 0%,
+			#477e53 0%,
+			rgba(50, 175, 215, 0.52) 100%,
+			rgba(50, 175, 215, 0.52) 100%
+		);
 }
 
 bodycopy {

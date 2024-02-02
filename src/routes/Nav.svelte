@@ -1,3 +1,5 @@
+
+
 <nav>
 	<h2><a href="/projects">{'Projects'.toUpperCase()}</a></h2>
 	<h2>
@@ -10,7 +12,13 @@
 
 <style>
 	nav {
-		text-align: right;
-		padding: 4rem 4rem 4rem 0;
+		text-align: right; }
+		/* padding: var(--default-padding) var(--default-padding) var(--default-padding) 0;
 	}
+
+	@media (max-width: 768px) {
+		nav {
+			padding: var(--default-padding)*var(--mobile-padding-offset) var(--default-padding)*var(--mobile-padding-offset) var(--default-padding)*var(--mobile-padding-offset) 0;
+		}
+	} */
 </style>

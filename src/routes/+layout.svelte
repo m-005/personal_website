@@ -3,6 +3,7 @@
 	import './style.css';
 	import Nav from './Nav.svelte';
 	import Footer from './Footer.svelte';
+	import Home from './Home.svelte';
 
 	injectSpeedInsights();
 </script>
@@ -14,6 +15,7 @@
 		<slot />
 	</content>
 
+	<Home />
 	<Footer />
 </div>
 
@@ -21,7 +23,8 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		max-height: 100vh;
+		padding: var(--default-padding);
 	}
 
 	content {
@@ -30,6 +33,11 @@
 		justify-content: flex-end;
 		flex: 1;
 		max-width: 70%;
-		padding: 4rem;
+	}
+
+	@media (max-width: 768px) {
+		content {
+			max-width: 100%;
+		}
 	}
 </style>
