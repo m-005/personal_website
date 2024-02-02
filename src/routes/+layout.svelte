@@ -7,8 +7,6 @@
 
 	// Vercel Perf widget
 	injectSpeedInsights();
-
-	// Function to set the height of .app to match the inner height of the window
 </script>
 
 <div class="app">
@@ -28,7 +26,7 @@
 		flex-direction: column;
 		padding: 1.6rem;
 		box-sizing: border-box; /* Include padding in element's total height */
-		height: 100svh;
+		height: 100dvh;
 
 		@media screen and (min-width: 1024px) {
 			padding: var(--default-padding);
