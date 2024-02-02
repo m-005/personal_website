@@ -41,10 +41,11 @@
 		flex-direction: column;
 		padding: 1.6rem;
 		box-sizing: border-box; /* Include padding in element's total height */
-		height: 100vh;
+		height: 100svh;
 
 		@media screen and (min-width: 1024px) {
 			padding: var(--default-padding);
+			height: 100vh;
 		}
 	}
 
