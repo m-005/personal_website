@@ -24,12 +24,8 @@
 		flex-direction: column;
 		padding: 1.6rem;
 		box-sizing: border-box; /* Include padding in element's total height */
-		height: 100dvh;
-
-		@media screen and (min-width: 1024px) {
-			padding: var(--default-padding);
-			height: 100vh;
-		}
+		position: absolute;
+		inset: 0;
 	}
 
 	.content {
