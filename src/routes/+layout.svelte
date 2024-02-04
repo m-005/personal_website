@@ -11,11 +11,9 @@
 
 <div class="app">
 	<Nav />
-
 	<div class="content">
 		<slot />
 	</div>
-
 	<Home />
 	<Footer />
 </div>
@@ -37,11 +35,6 @@
 	.content {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-end;
 		flex-grow: 1;
-
-		@media screen and (min-width: 768px) {
-			max-width: 70%;
-		}
 	}
 </style>
