@@ -1,5 +1,9 @@
 <nav>
-	<h2><a href="https://paragraph.xyz/@montez">{'Blog'.toUpperCase()}</a></h2>
+	<h2>
+		<a href="https://paragraph.xyz/@montez" target="_blank" rel="noopener noreferrer"
+			>{'Blog'.toUpperCase()}</a
+		>
+	</h2>
 	<h2>
 		<a href="https://are.na/montez" target="_blank" rel="noopener noreferrer"
 			>{'Archive'.toUpperCase()}
