@@ -5,7 +5,7 @@
 		(b. 1996)<br /><br />
 		An artist, technologist, and entrepreneur building global products guided by communication, design,
 		and harmony.<br /><br />
-		Building <a href="projects" rel="history"><u>OBJECTS</u></a> to bring personalized design for
+		Building <a href="https://objects.vision"><u>OBJECTS</u></a> to bring personalized design to
 		everyone. Built products for Instagram, Facebook, Meta, Coinbase, and XMTP Labs.<br /><br />
 	</bodycopy>
 </div>
@@ -16,7 +16,7 @@
 		justify-content: flex-end;
 		flex-direction: column;
 		flex-grow: 1;
-		
+
 		@media screen and (min-width: 768px) {
 			max-width: 70%;
 		}
