@@ -22,12 +22,12 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		padding: .8rem;
+		padding: 1rem;
 		box-sizing: border-box; /* Include padding in element's total height */
 		position: absolute;
 		inset: 0;
 		@media screen and (min-width: 768px) {
-			padding: 1.6rem;
+			padding: 2rem;
 		}
 	}
 

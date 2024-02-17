@@ -66,7 +66,7 @@
 	.footer {
 		justify-content: space-between;
 		display: flex;
-		align-items: center;
+		/* align-items: center;  */
 	}
 	ul {
 		display: flex;
