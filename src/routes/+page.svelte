@@ -7,8 +7,8 @@
 		and harmony.<br /><br />
 		Building
 		<a href="https://objects.vision" target="_blank" rel="noopener noreferrer"><u>OBJECTS</u></a>
-		to bring personalized design to everyone. Built products for Instagram, Facebook, Meta,
-		Coinbase, and XMTP Labs.<br /><br />
+		to make personalized design for everyone. Built products for Instagram, Facebook, Meta, Coinbase,
+		and XMTP Labs.<br /><br />
 	</bodycopy>
 </div>
 
