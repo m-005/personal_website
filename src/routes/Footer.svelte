@@ -2,7 +2,7 @@
 	<h3>
 		{' Engineered in Atlanta'.toUpperCase()}
 	</h3>
-	<ul>
+	<span class="icon-links">
 		<a
 			class="icon-link"
 			href="https://instagram.com/montez.ig"
@@ -50,7 +50,7 @@
 				xmlns="http://www.w3.org/2000/svg"
 				width="auto"
 				height="var(--fs-icon)"
-				viewBox="0 0 448 512"
+				viewBox="0 0 512 512"
 				{...$$props}
 			>
 				<path
@@ -58,30 +58,25 @@
 					d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z"
 				/>
 			</svg></a
-		><a
-			class="icon-link"
-			href="https://tiktok.com/@montez.tok"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-		</a>
-	</ul>
+		></span
+	>
 </div>
 
 <style>
 	.footer {
 		justify-content: space-between;
 		display: flex;
-		/* align-items: center;  */
+		align-items: center;
 	}
-	ul {
+
+	.icon-links {
 		display: flex;
 		gap: 0.5rem;
 	}
+
 	.icon-link {
 		--fs-icon: clamp(1.4rem, 2vw, 2rem);
 		color: rgba(255, 255, 255, 0.5);
-		
 	}
 
 	svg {
