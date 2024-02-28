@@ -1,5 +1,6 @@
 <script>
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { inject } from '@vercel/analytics';
 	import './style.css';
 	import Nav from './Nav.svelte';
 	import Footer from './Footer.svelte';
@@ -7,6 +8,8 @@
 
 	// Vercel Perf widget
 	injectSpeedInsights();
+	//Vercel Analytics
+	inject();
 </script>
 
 <div class="app">
