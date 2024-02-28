@@ -13,8 +13,27 @@
 body {
 	margin: 0;
 	background-size: 100vw 100vh;
-	background-color: black;
+	background-image: repeating-radial-gradient(circle at 50% 50%,
+			#477e53 5%,
+			#08515c 50%,
+			#477e53 100%);
 }
+
+/* :host {
+	background-image: repeating-radial-gradient( circle at 50% 50%, #477e53 6.373245200710256%, rgba(50, 175, 215, 0.52) 56.37324520071026%, rgba(50, 175, 215, 0.52) 56.37324520071026%, #477e53 106.37324520071026%, #477e53 106.37324520071026%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-position: 0 0;
+	background-size: 100% 100%;
+	false
+	false
+} */
+
+
 
 bodycopy {
 	font-size: var(--fs-small);
