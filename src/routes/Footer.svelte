@@ -64,8 +64,7 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			</a
-		>
+		</a>
 	</ul>
 </div>
 
@@ -82,5 +81,11 @@
 	.icon-link {
 		--fs-icon: clamp(1.4rem, 2vw, 2rem);
 		color: rgba(255, 255, 255, 0.5);
+		
+	}
+
+	svg {
+		width: var(--fs-icon);
+		height: var(--fs-icon);
 	}
 </style>

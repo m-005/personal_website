@@ -1,16 +1,16 @@
-<nav>
+<h2>
 	<ul>
-		<h2>
+		<li>
 			<a href="https://paragraph.xyz/@montez" target="_blank" rel="noopener noreferrer"
 				>{'Blog'.toUpperCase()}</a
 			>
-		</h2>
-		<h2>
+		</li>
+		<li>
 			<a href="https://are.na/montez" target="_blank" rel="noopener noreferrer"
 				>{'Archive'.toUpperCase()}<svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="auto"
 					height="var(--fs-medium)"
+					width="auto"
 					viewBox="0 0 150.38 88.986"
 					{...$$props}
 					><path
@@ -19,16 +19,21 @@
 					/></svg
 				>
 			</a>
-		</h2>
-		<h2><a href="mailto:email@montez.cloud">{'Contact'.toUpperCase()}</a></h2>
+		</li>
+		<li>
+			<a href="mailto:email@montez.cloud">{'Contact'.toUpperCase()}</a>
+		</li>
 	</ul>
-</nav>
+</h2>
 
 <style>
-	nav {
+	ul {
+		list-style-type: none;
 		text-align: right;
+		align-items: center;
 	}
-	.icon-link {
-		color: white;
+	svg {
+		width: auto;
+		height: var(--fs-medium);
 	}
 </style>
