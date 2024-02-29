@@ -38,6 +38,8 @@
 			#08515c 50%,
 			#477e53 130%
 		);
+
+		/* background-color: #1D5F59; */
 	}
 
 	.content {
