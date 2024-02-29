@@ -32,12 +32,13 @@
 		@media screen and (min-width: 768px) {
 			padding: 3rem;
 		}
-		background-image: repeating-radial-gradient(
+		background: repeating-radial-gradient(
 			circle at 50% 50%,
 			#477e53 5%,
 			#08515c 50%,
 			#477e53 130%
 		);
+
 	}
 
 	.content {
