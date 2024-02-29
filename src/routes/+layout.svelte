@@ -25,12 +25,12 @@
 	.app {
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
+		padding: 1.6rem;
 		box-sizing: border-box; /* Include padding in element's total height */
 		position: absolute;
 		inset: 0;
 		@media screen and (min-width: 768px) {
-			padding: 2rem;
+			padding: 3rem;
 		}
 		background-image: repeating-radial-gradient(
 			circle at 50% 50%,
