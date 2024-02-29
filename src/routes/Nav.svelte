@@ -16,6 +16,15 @@
 	<h2>
 		<a href="mailto:email@montez.cloud">{'Contact'.toUpperCase()}</a>
 	</h2>
+	<!-- <iframe
+		title="Subscribe"
+		src="https://paragraph.xyz/@montez/embed?minimal=true"
+		width="350px"
+		height="45"
+		style=" background:transparent;"
+		frameborder="0"
+		scrolling="no"
+	></iframe> -->
 </div>
 
 <style>

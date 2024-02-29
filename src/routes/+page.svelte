@@ -8,7 +8,7 @@
 		Building
 		<a href="https://objects.vision" target="_blank" rel="noopener noreferrer"><u>OBJECTS</u></a>
 		to make personalized design for everyone. Built products for Instagram, Facebook, Meta, Coinbase,
-		and XMTP Labs.<br /><br />
+		and XMTP Labs.
 	</bodycopy>
 </div>
 
@@ -18,6 +18,7 @@
 		justify-content: flex-end;
 		flex-direction: column;
 		flex-grow: 1;
+		padding-bottom: 1.6em;
 
 		@media screen and (min-width: 768px) {
 			max-width: 70%;
