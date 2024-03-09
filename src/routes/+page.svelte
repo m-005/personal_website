@@ -3,7 +3,7 @@
 <div class="content">
 	<bodycopy>
 		(b. 1996)<br /><br />
-		An artist, technologist, and entrepreneur building global products guided by communication, design,
+		A technologist and entrepreneur building global products guided by communication, design,
 		and harmony.<br /><br />
 		Building
 		<a href="https://objects.vision" target="_blank" rel="noopener noreferrer"><u>OBJECTS</u></a>
