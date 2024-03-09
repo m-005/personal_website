@@ -48,9 +48,6 @@
 	}
 
 	.icon-link {
-		/* --fs-icon: clamp(1.4rem, 2vw, 2rem); */
 		color: rgba(255, 255, 255, 0.5);
-		width: clamp(1.4rem, 2vw, 2rem);
-		height: clamp(1.4rem, 2vw, 2rem);
 	}
 </style>
